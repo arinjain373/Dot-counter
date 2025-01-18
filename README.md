@@ -13,7 +13,7 @@
 - Filters contours based on area and intensity.
 
 ### Visualization
-- Displays the blurred image, binary threshold images, and the final result with detected dots highlighted.
+- Displays the final result with detected dots highlighted.
 
 ### Return Values
 - Returns the number of black and white dots detected.
