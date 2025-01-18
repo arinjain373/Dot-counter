@@ -17,3 +17,8 @@
 
 ### Return Values
 - Returns the number of black and white dots detected.
+
+
+## Usage
+
+To count the black and white dots, simply update the image path in `final_script.py` with the path to your input image.
