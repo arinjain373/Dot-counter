@@ -22,3 +22,11 @@
 ## Usage
 
 To count the black and white dots, simply update the image path in `final_script.py` with the path to your input image.
+
+
+## Shortcomings
+
+Currently, an additional mask is used to handle the left side portion of the image while counting white dots. This approach may fail to work with other images. 
+
+To overcome this limitation, a better threshold value can be determined with the help of more sample images.
+
