@@ -68,7 +68,7 @@ def count_dots(image_path):
           mask = np.zeros_like(img)
           cv2.drawContours(mask, [contour], -1, 255, -1)
           mean_intensity = cv2.mean(img, mask=mask)[0]
-          if mean_intensity > 100:
+          if mean_intensity > 128:
               white_dots.append(contour) 
               
     #Results
